@@ -8,10 +8,6 @@ test('it renders correctly', () => {
   render(<Controls />);
 })
 
-// const toggleLockedMock = jest.fn();
-// const toggleClosedMock = jest.fn();
-
-
 
 test('',() => {
   const { getByText } = render(<Controls locked={true} closed={true} toggleLocked={toggleLockedMock} toggleClosed={toggleClosedMock} />)
